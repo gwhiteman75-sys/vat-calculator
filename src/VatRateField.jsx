@@ -14,6 +14,7 @@ const VatRateField = (props) => {
             VAT Rate: &nbsp;
             <select value={props.value} onChange={(event) => { props.vatRateChanged(+event.target.value); }}>
                 <option value="20">20%</option>
+                <option value="17.5">17.5%</option>
                 <option value="15">15%</option>
                 <option value="12.5">12.5%</option>
                 <option value="0">Exempt</option>
